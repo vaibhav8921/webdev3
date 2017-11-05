@@ -1,0 +1,14 @@
+<h1>
+Login {{hello}}
+</h1>
+<label> Username</label>
+<br/>
+<input [(ngModel)]= "username" placeholder="alice" >
+<br/>
+<br/>
+<label> Password </label>
+<br/>
+<input [(ngModel)]= "password" placeholder="123#!" type="password" >
+<br/>
+<br/>
+<button (click) = "login(username, password)">Login</button>
